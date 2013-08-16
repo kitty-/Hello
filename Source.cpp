@@ -15,3 +15,9 @@ void user::getName()
 	cout << "Enter your name! ";
 	getline(cin, name);
 }
+
+void user::getAge()
+{
+	cout << "Enter your age: ";
+	cin >> age;
+}

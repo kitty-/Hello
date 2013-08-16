@@ -5,6 +5,7 @@ using namespace std;
 
 int main()
 {
+	cout << "Hello!" << endl;
 	user person;
 	person.getName();
 	person.getAge();
