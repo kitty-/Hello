@@ -6,6 +6,7 @@ using namespace std;
 void user::print()
 {
 	cout << "Hello World! My name is " << name << "!" << endl;
+	cout << "I'm " << age << "years old!" << endl;
 }
 
 void user::getName()

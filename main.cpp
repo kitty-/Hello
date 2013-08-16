@@ -7,6 +7,7 @@ int main()
 {
 	user person;
 	person.getName();
+	person.getAge();
 	person.print();
 	cin.get();
 
