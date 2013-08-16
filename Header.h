@@ -9,8 +9,10 @@ class user
 {
 private:
 	string name;
+	int age;
 public:
 	void getName();
+	void getAge();
 	void print();
 };
 
